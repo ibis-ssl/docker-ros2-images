@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . -t future731/ros2
+docker build . -t future731/ros2_dashing
