@@ -1,6 +1,6 @@
 #!/bin/bash
 
-image="future731/ros2_dashing"
+image="ibisssl/ros2_dashing"
 container="ros2_dashing"
 
 if [ "$DOCKER_ROS_IP" == "" ]; then
