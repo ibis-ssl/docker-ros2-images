@@ -1,7 +1,7 @@
 #!/bin/bash
 
-image="ibisssl/ros2_dashing"
-container="ros2_dashing"
+image="ibisssl/ros2-dashing"
+container="ros2-dashing"
 
 if [ "$DOCKER_ROS_IP" == "" ]; then
     export DOCKER_ROS_IP=localhost
