@@ -1,4 +1,4 @@
-FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu20.04
+FROM ubuntu:20.04
 
 SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
