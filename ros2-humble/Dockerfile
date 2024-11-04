@@ -67,12 +67,12 @@ RUN sudo rosdep init && \
   rosdep update --rosdistro $ROS_DISTRO
 
 # setup colcon mixin and metadata
-RUN colcon mixin add default \
-      https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml && \
-    colcon mixin update && \
-    colcon metadata add default \
-      https://raw.githubusercontent.com/colcon/colcon-metadata-repository/master/index.yaml && \
-    colcon metadata update
+# RUN colcon mixin add default \
+#       https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml && \
+#     colcon mixin update && \
+#     colcon metadata add default \
+#       https://raw.githubusercontent.com/colcon/colcon-metadata-repository/master/index.yaml && \
+#     colcon metadata update
 
 # setup workspace
 ENV ROS_OVERLAY /home/${USERNAME}/ibis_ws
